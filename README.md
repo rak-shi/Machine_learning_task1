@@ -18,20 +18,20 @@ This repository contains the project for **gesture recognition**, **lip tracking
 - OpenCV: Used for reading and processing images and videos.
 ## Output Structure
 - /gesture_recognition
-    ├── gesture_detection.py
-    └── utils.py
+    - ├── gesture_detection.py
+    - └── utils.py
 - /lip_tracking
-    ├── extract_frames.py
-    ├── lip_tracking.py
-    └── utils.py
+   - ├── extract_frames.py
+   - ├── lip_tracking.py
+   - └── utils.py
 - /data_augmentation
-    ├── augment_data.py
-    ├── visualize_augmented.py
-    └── utils.py
+    - ├── augment_data.py
+    - ├── visualize_augmented.py
+    - └── utils.py
 - /outputs
-    ├── cropped_lips/
-    ├── augmented_lips/
-    └── visualizations/
+    - ├── cropped_lips/
+    - ├── augmented_lips/
+    - └── visualizations/
 - /Document.pdf
 
 
