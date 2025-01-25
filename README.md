@@ -17,22 +17,22 @@ This repository contains the project for **gesture recognition**, **lip tracking
 - TensorFlow: Used for data augmentation and deep learning models.
 - OpenCV: Used for reading and processing images and videos.
 ## Output Structure
-  /gesture_recognition
+- /gesture_recognition
     ├── gesture_detection.py
     └── utils.py
-/lip_tracking
+- /lip_tracking
     ├── extract_frames.py
     ├── lip_tracking.py
     └── utils.py
-/data_augmentation
+- /data_augmentation
     ├── augment_data.py
     ├── visualize_augmented.py
     └── utils.py
-/outputs
+- /outputs
     ├── cropped_lips/
     ├── augmented_lips/
     └── visualizations/
-/Document.pdf
+- /Document.pdf
 
 
 
