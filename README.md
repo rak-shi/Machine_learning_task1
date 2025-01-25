@@ -12,6 +12,28 @@ This repository contains the project for **gesture recognition**, **lip tracking
 - `lip_tracking/` - Contains scripts for detecting face landmarks and tracking lip movements in video frames.
 - `data_augmentation/` - Contains scripts for augmenting the gesture and lip tracking images.
 - `Document.pdf` - The final report with detailed explanations, results, and analysis of the project.
+## Acknowledgements
+- MediaPipe: Used for lip tracking and face mesh analysis.
+- TensorFlow: Used for data augmentation and deep learning models.
+- OpenCV: Used for reading and processing images and videos.
+## Output Structure
+  /gesture_recognition
+    ├── gesture_detection.py
+    └── utils.py
+/lip_tracking
+    ├── extract_frames.py
+    ├── lip_tracking.py
+    └── utils.py
+/data_augmentation
+    ├── augment_data.py
+    ├── visualize_augmented.py
+    └── utils.py
+/outputs
+    ├── cropped_lips/
+    ├── augmented_lips/
+    └── visualizations/
+/Document.pdf
+
 
 
 
