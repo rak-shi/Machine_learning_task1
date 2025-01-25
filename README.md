@@ -1,7 +1,18 @@
-# Machine_learning_task1
-This project focuses on Gesture Recognition, Lip Tracking, and Data Augmentation using modern machine learning techniques, primarily utilizing MediaPipe and TensorFlow.
-# The objectives of the project are:
+# Gesture Recognition, Lip Tracking, and Data Augmentation
 
---To recognize hand gestures (such as the "OK" gesture) from images or video frames.
---To track lip movements and extract lip-related features from video frames for further analysis.
---To perform data augmentation to expand the dataset, making it more diverse and robust for machine learning models.
+This repository contains the project for **gesture recognition**, **lip tracking**, and **data augmentation** using **MediaPipe** and **TensorFlow**.
+
+## Project Overview
+- **Gesture Recognition**: Detects hand gestures (e.g., the "OK" gesture) using hand landmark detection.
+- **Lip Tracking**: Uses MediaPipe's face mesh to track lip movements and extract cropped images of the lips from video frames.
+- **Data Augmentation**: Applies various transformations like rotation, shifting, and flipping to generate a more diverse dataset for training.
+
+## Files Included
+- `gesture_recognition/` - Contains scripts for detecting and processing hand gestures.
+- `lip_tracking/` - Contains scripts for detecting face landmarks and tracking lip movements in video frames.
+- `data_augmentation/` - Contains scripts for augmenting the gesture and lip tracking images.
+- `Document.pdf` - The final report with detailed explanations, results, and analysis of the project.
+
+
+
+
